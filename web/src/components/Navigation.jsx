@@ -3,11 +3,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from "./Home";
 import About from "./About";
 
-import "../style-css/head-main"
-
 function Navigation() {
     return (
-<div className="head-main">
 <BrowserRouter>
 
                 <head-navi>
@@ -25,7 +22,6 @@ function Navigation() {
 
                 </Routes>
             </BrowserRouter>
-</div>
         )
     }
 
