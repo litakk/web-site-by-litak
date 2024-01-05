@@ -1,0 +1,59 @@
+.header {
+    background-color: black;
+    color: snow;    
+    position: relative;
+    margin-top: -32px;
+    height: 90px;
+}
+.text-one {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 15px;
+    color: rgb(199, 199, 199);
+}
+.none {
+    text-decoration: none;
+    position: relative;
+    color: snow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.none:hover {
+    transition: 0.3s;
+    color: red;
+}
+.none:focus {
+color:aqua;
+}
+.none-1 {
+    position: relative;
+    left: 700px;
+    top: -50px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.none-2 {
+    position: relative;
+    left: 750px;
+    top: -50px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.none-3 {
+    position: relative;
+    left: 800px;
+    top: -50px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.none-4 {
+    position: relative;
+    left: 850px;
+    top: -50px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    padding: 30px;
+}
