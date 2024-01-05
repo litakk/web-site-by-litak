@@ -3,17 +3,19 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from "./Home";
 import About from "./About";
 
+import "../style-css/head-main"
+
 function Navigation() {
     return (
-<div className="navigation-header">
+<div className="head-main">
 <BrowserRouter>
+
                 <head-navi>
                     <Link to="/"> Home</Link>
                     <Link to="/About"> About</Link>
                     {/* <Link to="/Signup"> Sign up</Link> */}
                 </head-navi>
-                <br />
-           
+
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
